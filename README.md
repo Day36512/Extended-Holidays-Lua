@@ -15,14 +15,14 @@ This script is designed to work with AzerothCore and the Eluna scripting engine.
 
 Here is the part of the script where you can enable or disable holidays:
 
-\`\`\`lua
+```lua
 -- Status of each holiday event (true = enabled, false = disabled)
 HolidayEventControl.HolidayStatus = {
     Brewfest = true,
     ChildrensWeek = false,
     -- ... (rest of the holidays)
 }
-\`\`\`
+```
 
 Set the value to `true` if you want to enable the holiday and `false` if you want to disable it.
 
