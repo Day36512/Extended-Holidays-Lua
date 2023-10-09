@@ -13,7 +13,7 @@ This script is designed to work with AzerothCore and the Eluna scripting engine.
 
 ## Output
 
-The script prints out messages to the server console indicating which holidays are enabled or disabled. This can be useful for server administrators to confirm that the script is running as expected.
+The script prints out messages to the server console indicating which holidays are enabled. This can be useful for server administrators to confirm that the script is running as expected.
 
 ## Troubleshooting
 
