@@ -63,7 +63,9 @@ HolidayEventControl.HolidayEvents = {
 local function EnableDisableHolidays()
     for holiday, eventId in pairs(HolidayEventControl.HolidayEvents) do
         if HolidayEventControl.HolidayStatus[holiday] then
-            StartGameEvent(eventId, true)  -- Force start the event
+            StartGameEvent(eventId, true)  
+            print("Holiday Event Enabled: " .. holiday)  
+        else
         end
     end
 end
